@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="WordLadder">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/WordLadder.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
