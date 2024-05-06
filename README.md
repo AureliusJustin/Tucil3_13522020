@@ -30,8 +30,9 @@ Program ini adalah program untuk menemukan solusi dari permainan Word Ladder men
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+![Example screenshot](./test/TC1%20A*.png)
+![Example screenshot](./test/TC4%20UCS.png)
+![Example screenshot](./test/TC6%20GBFS.png)
 
 
 ## Setup
