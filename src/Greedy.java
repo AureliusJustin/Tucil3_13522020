@@ -12,18 +12,12 @@ class Greedy extends Algorithm{
     
     public void addNextMoves(Word currentWord, HashSet<String> hs) {
         List<String> nextWords = currentWord.getNextWords(hs);
-        Word nextWord = new Word("", 9999, null);
         for (String word : nextWords) {
             if (!visited.contains(word)) {
                 Word newWord = new Word(word, 0, currentWord);
                 newWord.setValue(newWord.distanceToGoal(goalWord));
-                if (newWord.getValue() < nextWord.getValue()){
-                    nextWord = newWord;
-                }
+                pq.add(newWord);
             }
-        }
-        if (nextWord.getValue() != 9999){
-            pq.add(nextWord);
         }
     }
 }

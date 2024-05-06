@@ -95,7 +95,7 @@ class WordComparator implements Comparator<Word> {
         } else if (w1.getValue() > w2.getValue()){
             return 1;
         } else {
-            return 0;
+            return w1.getWord().compareTo(w2.getWord());
         }
     }
 }
