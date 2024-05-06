@@ -5,8 +5,8 @@ class Main {
         
         if (args.length != 3) {
             System.out.println("Format salah!");
-            System.out.println("Format: java -jar Program.jar <StartWord> <EndWord> <Astar / UCS / GBFS>");
-            System.out.println("Contoh: java -jar Program.jar Trap Hope Astar");
+            System.out.println("Format: java -jar WordLadder.jar <StartWord> <EndWord> <Astar / UCS / GBFS>");
+            System.out.println("Contoh: java -jar WordLadder.jar Trap Hope Astar");
             return;
         }
         
@@ -34,8 +34,8 @@ class Main {
             a = new Greedy(startWord, goalWord);
         } else { // Algoritma tidak valid
             System.out.println("Algoritma tidak valid!");
-            System.out.println("Format: java -jar Program.jar <StartWord> <EndWord> <Astar / UCS / GBFS>");
-            System.out.println("Contoh: java -jar Program.jar Trap Hope Astar");
+            System.out.println("Format: java -jar WordLadder.jar <StartWord> <EndWord> <Astar / UCS / GBFS>");
+            System.out.println("Contoh: java -jar WordLadder.jar Trap Hope Astar");
             return;
         }
 
