@@ -31,7 +31,7 @@ Program ini adalah program untuk menemukan solusi dari permainan Word Ladder men
 
 
 ## Screenshots
-![Example screenshot](./test/TC1%20A*.png)
+![Example screenshot](./test/TC1%20Astar.png)
 ![Example screenshot](./test/TC4%20UCS.png)
 ![Example screenshot](./test/TC6%20GBFS.png)
 ![Example screenshot](./test/GUI%20TC.png)
