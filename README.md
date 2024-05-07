@@ -21,6 +21,7 @@ Program ini adalah program untuk menemukan solusi dari permainan Word Ladder men
 ## Technologies Used
 - Java - version 20.0.2
 - VS Code - version 1.71.1
+- IntelliJ IDEA 2024.1.1 (Ultimate Edition)
 
 
 ## Features
