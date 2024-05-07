@@ -33,6 +33,7 @@ Program ini adalah program untuk menemukan solusi dari permainan Word Ladder men
 ![Example screenshot](./test/TC1%20A*.png)
 ![Example screenshot](./test/TC4%20UCS.png)
 ![Example screenshot](./test/TC6%20GBFS.png)
+![Example screenshot](./test/GUI%20TC.png)
 
 
 ## Setup
@@ -48,9 +49,15 @@ git clone https://github.com/AureliusJustin/Tucil3_13522020.git
 ## Usage
 Run the Program
 ```
+CLI:
+
 java -jar WordLadder.jar <StartWord> <EndWord> <Astar / UCS / GBFS>
 
 (Example: java -jar WordLadder.jar Trap Hope Astar)
+
+GUI:
+
+java -jar GUI.jar
 ```
 
 
